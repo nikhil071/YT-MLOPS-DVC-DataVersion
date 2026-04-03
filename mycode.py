@@ -14,6 +14,11 @@ df = pd.DataFrame(data)
 new_row_loc = {"name": "GF1", "Age" : 20, "City" : "city1"}
 df.loc[len(df.index)] = new_row_loc
 
+# adding new row to df for v3
+new_row_loc2 = {"name": "GF2", "Age" : 30, "City" : "city2"}
+df.loc[len(df.index)] = new_row_loc2
+
+
 # Ensure the data directory exists at the root level
 data_dir = 'data'
 os.makedirs(data_dir,exist_ok=True)
