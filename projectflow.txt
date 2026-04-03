@@ -7,4 +7,5 @@
 6. Now we do "dvc remote add -d myremote S3"
 7. Next "dvc add data/"
  Now it will ask to do (git rm -r --cached "data" and git commit -m "stop tracking data"")
-8. Again we do "dvc add data/"(creates dvc.data and then "git add data.dvc .gitignore")
+8.Again we do "dvc add data/"(creates dvc.data and then "git add data.dvc .gitignore")
+9.Now "dvc commit" and then  dvc "push" 
